@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 # Set this to your domain or server IP in production
-ALLOWED_HOSTS = ['.onrender.com']
+ALLOWED_HOSTS = ['notes-share.onrender.com']
 
 
 # Application definition
